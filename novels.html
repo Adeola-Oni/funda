@@ -1,0 +1,275 @@
+<!-- <!DOCTYPE html>  
+<html>  
+<style>  
+.tooltip {  
+    position: relative;  
+    display: inline-block;  
+    border-bottom: 1px dotted black;  
+}  
+.tooltip .tooltiptext {  
+    visibility: hidden;  
+    width: 120px;  
+    background-color: red;  
+    color: #fff;  
+    text-align: center;  
+    border-radius: 6px;  
+    padding: 5px 0;  
+    position: absolute;  
+    z-index: 1;  
+    bottom: 100%;  
+    left: 50%;  
+    margin-left: -60px;  
+      
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */  
+    opacity: 0;  
+    transition: opacity 5s;  
+}  
+.tooltip:hover .tooltiptext {  
+    visibility: visible;  
+    opacity: 1;  
+}  
+
+
+
+
+.tooltip {  
+    position: relative;  
+    display: inline-block;  
+    border-bottom: 1px dotted black;  
+}  
+.tooltip .tooltiptext {  
+    visibility: hidden;  
+    width: 120px;  
+    background-color: black;  
+    color: #fff;  
+    text-align: center;  
+    border-radius: 6px;  
+    padding: 5px 0;  
+    position: absolute;  
+    z-index: 1;  
+    top: 150%;  
+    left: 50%;  
+    margin-left: -60px;  
+}  
+.tooltip .tooltiptext::after {  
+    content: "";  
+    position: absolute;  
+    bottom: 100%;  
+    left: 50%;  
+    margin-left: -5px;  
+    border-width: 5px;  
+    border-style: solid;  
+    border-color: transparent transparent black transparent;  
+}  
+.tooltip:hover .tooltiptext {  
+    visibility: visible;  
+} 
+</style>  
+<body style="text-align:center;">  
+<h2>Fade In Tooltip Example</h2>  
+<p>Move your mouse cursor over the below heading</p>  
+<div class="tooltip"><strong> Welcome to JavaTpoint</strong>  
+<span class="tooltiptext">A solution of all technology.</span>  
+</div>
+
+
+
+<h2>Top Arrow Example</h2>  
+<p>Move your mouse cursor over the below heading</p>  
+<div class="tooltip"><strong>Welcom to JavaTpoint</strong>  
+<span class="tooltiptext">A solution of all technology</span>  
+</div>   
+</body>  
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="funda1.css">
+    <script src="funda1.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <style>
+            #navi{
+                display: block;
+            }
+    
+            #headerbar{
+                display: block;
+            }
+            #NovelsPage{
+                display: block;
+            }
+    
+        </style>
+</head>
+<body>
+
+        <nav id="navi" class="pages">
+                <div class="col-4 name">
+                    <p class="funda">FUNDA.COM</p>
+                </div>
+        
+                <div class="col-2 search">
+                    <input class="form-control" type="text" placeholder="SEARCH CONTENTS">  
+                </div>
+        
+                <div class="col-1 search">
+                    <a class="button form-control butt">SEARCH</a>   
+                </div>
+        
+                <div class="col-2 ">
+                      
+                </div>
+        
+                <ol class="col-3 menu">
+                    <li class="col-5">
+                        <div class="dropdown">
+                        <a href="#"><button class="button dropbtn" >SIGNUP</button></a>
+                            <div class="dropdown-content">
+                                <a href="#">As A Writer</a>
+                                <a href="#">As A Reader</a>
+                                <a href="#">As A Sponsor</a>
+                            </div>
+                        </div>
+                    </li>
+        
+                    <li class="col-2"></li>
+        
+                    <li class="col-2">
+                        <div class="dropdown">
+                        <a href="#"><button class="button dropbtn">ORDER</button></a>
+                            <div class="dropdown-content">
+                                <a href="#">THRILLER</a>
+                                <a href="#">SUSPENSE</a>
+                                <a href="#">ROMANCE</a>
+                                <a href="#">COMIC</a>
+                                <a href="#">JOURNAL</a>
+                                <a href="#">INSPIRATIONAL</a>
+                            </div>
+                    </li>
+                </ol>
+        
+                <select>
+                    <option>HOME</option>
+                    <option>WRITER SIGNUP</option>
+                    <option>BUY-A-BOOK</option>
+                </select>
+            </nav>
+        
+        
+            <header class="col-2 sidenav pages" id="headerbar">
+                <ul>
+                <br><br><br>
+                <li><br>
+                    <a href="landingpage.html"> 
+                    <p> HOME</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="account.html"> 
+                    <p>ACCOUNT</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="novels.html"> 
+                    <p>NOVELS</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="comics.html"> 
+                    <p>COMICS</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>JOURNALS</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>TEXTBOOKS</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>PROOFREAD CLUB</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>BOOK REVIEW</p>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>GROUP</p><br>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#"> 
+                    <p>JOIN A CLUB</p><br>
+                    </a>
+                </li>
+                <br>
+                <br>
+                </ul>
+            </header>
+
+        <aside class="col-10 recent main novels" id="NovelsPage">
+            <br><br>
+            <div class="col-6">
+                <div class="col-2">
+                    <img src="images/1399485366.jpg" >
+                </div>
+                
+                <p class="col-6">We were busy reading, where the hell were you??? bitch We were busy reading, where the hell were you??? bitch
+                    We were busy reading, where the hell were you??? bitchWe were busy reading, where the hell were you??? bitch
+                    We were busy reading, where the hell were you??? bitchWe were busy reading, where the hell were you??? bitch
+                    We were busy reading, where the hell were you??? bitchWe were busy reading, where the hell were you??? bitch
+
+                </p>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">
+                        Simple collapsible
+                      </button>
+                      
+                      <div id="demo" class="collapse in">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                      </div>
+            </div>
+            
+                <div class="col-6">
+                    <p></p>
+                </div>
+            </div>
+
+            <br>
+            <ul class="pager">
+                <li><a href="account.html">Previous</a></li>
+                <li><a href="comics.html">Next</a></li>
+            </ul>
+                        
+        </aside>
+</body>
+</html>
