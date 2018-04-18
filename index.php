@@ -113,7 +113,7 @@
                 <input type="password" name="password"class="inp form-control sr-only" placeholder="Password" required="required"><br>
                 <input type="text" name="fundaname" class=" inp form-control" placeholder="Username/Fundaname" required="required"><br>
                 <button class="btn" type="submit" name="submit_form_login" ><a href="landingpage.html">LOGIN </a></button>
-                <button class="btn" type="submit" onclick="landpagenav()"><a href="funda1.php">BACK</a></button>
+                <button class="btn" type="submit" onclick="landpagenav()"><a href="index.php">BACK</a></button>
             </form>
             <br><br><br><br>
         </div>   
